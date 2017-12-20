@@ -30,7 +30,7 @@ function prependKitten(name) {
 }
 
 
-function prependKitten(name) {
+function removeLastKitten()(name) {
   var newArray =[...kittens]
   newArray.unshift(name)
   return newArray  
