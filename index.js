@@ -28,3 +28,10 @@ function prependKitten(name) {
   newArray.unshift(name)
   return newArray  
 }
+
+
+function prependKitten(name) {
+  var newArray =[...kittens]
+  newArray.unshift(name)
+  return newArray  
+}
